@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color switcher</title>
+    <style>
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .button{
+            width: 100px;
+            border: 1px solid;
+            height: 100px;
+            margin: 0 20px;
+        }
+        #red{
+            background-color: red;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #pink{
+            background-color: pink;
+        }
+        #black{
+            background-color: black;
+        }
+        #green{
+            background-color: green;
+        }
+        #white{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <a style="text-decoration: none; font-size: 2rem; color: black; border-bottom: 2px solid black;" href="/Projects/index.html">Home</a>
+    <h1>change body color by click on box</h1>
+    <div class="box">
+        <div id="red" class="button"></div>
+        <div id="yellow" class="button"></div>
+        <div id="blue" class="button"></div>
+        <div id="pink" class="button"></div>
+        <div id="black" class="button"></div>
+        <div id="green" class="button"></div> 
+        <div id="white" class="button"></div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
